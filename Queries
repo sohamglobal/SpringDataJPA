@@ -1,0 +1,28 @@
+*Table creation queries for JPA project*
+
+create table accounts
+(
+accno int primary key,
+accnm varchar(30),
+acctype varchar(15),
+balance float check(balance>=500)
+);
+
+create table emp
+(
+empno int primary key,
+empnm varchar(30),
+dept varchar(20),
+post varchar(20),
+location varchar(15),
+salary float
+);
+
+create table jobs
+(
+jobid int primary key auto_increment,
+company varchar(25),
+profile varchar(30),
+skills varchar(100),
+experience int
+);
