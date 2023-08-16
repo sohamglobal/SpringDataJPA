@@ -1,4 +1,4 @@
-#Table creation queries for JPA project
+Table creation queries for JPA project
 
 create table accounts
 (
